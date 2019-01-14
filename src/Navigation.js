@@ -4,23 +4,23 @@ import React, { Component } from 'react';
 import './Navigation.css';
 
 class Navigation extends Component {
-  render() {
-    return (
-        <nav>
-            <h2>React project</h2>
-        </nav>
-        <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Resume</li>
-            <li>About</li>
-            <li>Contact</li>
+    render() {
+        const sections = ['About', 'Resume', 'Projects', 'Contact'];
+        const mapLinks = sections.map (section => {
+            return(
+                <li><a href = {'#' + section}>{section}</a></li>
+            )
+        });
 
-
-            
-        </ul>
-    );
-  }
+        return(
+            <nav>
+                <h2 className = 'logo'>{this.props.logoTitle}</h2>
+                <ul>
+                    {mapLinks}
+                </ul>
+            </nav>
+        )
+    }
 }
 
 export default Navigation;

@@ -1,0 +1,16 @@
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+header p {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
