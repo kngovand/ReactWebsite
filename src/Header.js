@@ -19,8 +19,8 @@ class Header extends Component {
             <div>
             <header style={myStyles}>
             <h1>{this.props.title}</h1>
-            <p>This portfolio website was written in React.</p>
-
+            <p>Welcome to my portfolio website.</p>
+            <a href="#button">{this.props.button}</a>
             </header>
             </div>
         )

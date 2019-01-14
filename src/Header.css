@@ -6,11 +6,25 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 3em;
-    color: rgba(255, 255, 255, 0.753);
+    font-size: 4em;
 }
 
 header p {
+    margin: 0;
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+header a {
+    color: white;
+    background-color: #1e7f9c;
+    border-color: #1e7f9c;
+    font-weight: 700;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
+    text-decoration: none;
+    padding: 1.25rem 2.5rem;
+    display: inline-block;
+    border-radius: .25rem;
 }
