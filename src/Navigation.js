@@ -5,7 +5,7 @@ import './Navigation.css';
 
 class Navigation extends Component {
     render() {
-        const sections = ['About', 'Resume', 'Projects', 'Contact'];
+        const sections = ['Projects', 'Resume', 'About', 'Contact'];
         const mapLinks = sections.map (section => {
             return(
                 <li><a href = {'#' + section}>{section}</a></li>

@@ -4,6 +4,13 @@ import './index.css';
 //import App from './App';
 import Navigation from './Navigation';
 import Header from './Header';
+import Project from './Project';
+import About from './About';
+import Resume from './Resume';
+import Projects from './Projects';
+//import Contact from './Contact';
+
+
 import * as serviceWorker from './serviceWorker';
 
 class App extends Component {
@@ -12,6 +19,11 @@ class App extends Component {
             <div>
                 <Navigation logoTitle ="Kevin Ngovanduc" />
                 <Header title="Hello!" button ="Get Started" />
+                <Project/>
+                <Projects/>
+                <Resume/>
+                <About/>
+
             </div>
         )
     }
