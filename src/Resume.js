@@ -11,13 +11,12 @@ class Resume extends Component {
 
 
         return(
-
-         
-
-            <div className ="resume">
+            <div id = "Resume" className ="resume">
                 <div id ="myModal" className="modal">
                 <span class = "close">&times;</span>
                 </div>
+                <h3>Resume</h3>
+                <h2>Click on me!</h2>
            </div>
 
         )

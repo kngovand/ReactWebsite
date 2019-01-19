@@ -2,6 +2,7 @@ header {
     margin: 0 auto;
     text-align: center;
     padding-top: 200px;
+    color: white;
 }
 
 header h1 {
@@ -20,8 +21,8 @@ header p {
 
 header a {
     color: white;
-    background-color: #1d809f;
-    border-color: #1d809f;
+    background-color: #000000e0;
+    border-color: #000303;
     font-weight: 700;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
     text-decoration: none;

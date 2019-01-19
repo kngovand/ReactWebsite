@@ -2,7 +2,23 @@
     text-align: center;
     padding-top: 75px;
     padding-bottom: 75px;
-    background-color: rgba(0, 0, 0, 0.863);
     margin: 0 auto;
+    color: rgb(0, 0, 0);
+}
+
+.projects h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-style: bold;
+    color: gold;
+    margin: 0;
+    padding: 0;
+}
+
+.projects h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 0px;
 }
 

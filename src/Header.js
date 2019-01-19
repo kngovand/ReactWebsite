@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Background from './img/pexels.jpeg';
+import Background from './img/snow2.jpeg';
 import './Header.css';
 
 const myStyles = {

@@ -8,7 +8,10 @@ import Project from './Project';
 import About from './About';
 import Resume from './Resume';
 import Projects from './Projects';
-//import Contact from './Contact';
+import Contact from './Contact';
+import Scrollspy from 'react-scrollspy';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 
 
 import * as serviceWorker from './serviceWorker';
@@ -17,12 +20,13 @@ class App extends Component {
     render() {
         return(
             <div>
-                <Navigation logoTitle ="Kevin Ngovanduc" />
+               
                 <Header title="Hello!" button ="Get Started" />
-                <Project/>
-                <Projects/>
-                <Resume/>
-                <About/>
+                <Project />
+                <Projects />
+                <Resume />
+                <About />
+                <Contact />
 
             </div>
         )

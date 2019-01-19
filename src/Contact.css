@@ -1,0 +1,56 @@
+.contact {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: rgb(7, 106, 163);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact h3 {
+    font-size: 16px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: gold;
+    margin: 0;
+    padding: 0;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.contact p{
+    color: white;
+}
+
+.contact .row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-left: 1px;
+}
+
+.contact span {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-content: center;
+    font-size: 60px;
+    margin-bottom: 2px;
+    line-height: 7rem;
+}
+
+.contact p {
+    color: rgba(255, 255, 255, 0.747);
+    margin-top: 0px;
+}
+
+.contact .space {
+    padding: 25px;
+}

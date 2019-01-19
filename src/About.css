@@ -1,6 +1,30 @@
 .about {
-    background-color: white;
-    margin-bottom: 200px;
+    background-color: #312b2b;
+    padding-top: 50px;
+    padding-bottom: 1px;
     text-align: center;
+    margin: 0 auto;
+}
+
+.about h3 {
+    padding-top: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(3, 119, 187);
     margin: 0;
+
+}
+
+.about h2 {
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.about p{
+    color: rgb(8, 8, 8);
+    padding-left: 275px;    
+    padding-right: 275px;
+
 }

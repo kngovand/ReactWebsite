@@ -5,11 +5,11 @@ import './Project.css';
 class Project extends Component {
     render() {
         const values = [
-            {icon: 'color-wand', name: 'Dynamic', description: 'Components work as a single page application.'},
+            {icon: 'color-wand', name: 'Dynamic', description: 'Using components, props, and states'},
 
-            {icon: 'contacts', name: 'Fluid', description: 'Focused on user design and experience.'},
+            {icon: 'contacts', name: 'Fluid', description: 'Focused on user design'},
 
-                          {icon: 'albums', name: 'Responsive', description: 'Works on most resolutions and devices.'}
+                          {icon: 'albums', name: 'Responsive', description: 'Works on most resolutions and devices'}
 
                         ];
 
@@ -29,8 +29,8 @@ class Project extends Component {
 
         return(
             <div className="project">
-                <h3>About this project</h3>
-                <h2>This app was written in React JS</h2>
+                <h3>About this website</h3>
+                <h2>Written in React JS</h2>
                 <div className ="row">
                     {mapValues} 
                 </div>
