@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Tabs, Tab} from 'react-mdl';
 import Background from './img/blue.jpg';
 import './Projects.css';
-import {Grid, Cell} from 'react-mdl';
+import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
 
 const myStyles = {
     backgroundImage: `url( ${Background} )`,
@@ -21,7 +21,10 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0) {
             return(
-                <p>this is stuff 1</p>
+                <Card shadow ={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url() center / cover'}}></CardTitle>
+                    <CardText> asdasd </CardText>
+                </Card>
             )
         }
         else if(this.state.activeTab === 1) {
@@ -48,7 +51,7 @@ class Projects extends Component {
 
             <div id = "Projects" className = "projects" style = {myStyles} >
                 
-                <h3>Projects</h3>
+                <h3>Portfolio</h3>
                 <h2>A strong focus on web applications</h2>
                 <div className = "category-tabs">
                     <Tabs backgroundColor="white" styleactiveTab= {this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
