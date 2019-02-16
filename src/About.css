@@ -2,30 +2,34 @@
     background-color: #312b2b;
     padding-top: 50px;
     padding-bottom: 1px;
-    text-align: center;
     margin: 0 auto;
     display: inline-block;
 }
 
 .about h3 {
-    padding-top: 200px;
+    padding-top: 150px;
+    padding-bottom: 10px;
     font-size: 18px;
     text-transform: uppercase;
-    color: gold;
+    font-weight: bold;
+    color:gold;
     margin: 0;
-
+    padding-left: 50px;
 }
 
 .about h2 {
     color: rgb(2, 2, 2);
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     margin-top: 0px;
+    padding-left: 50px;
 }
 
 .about p{
-    color: rgb(8, 8, 8);
-    padding-left: 275px;    
-    padding-right: 275px;
+    font: 'opensans-bold', sans-serif;
+    color: rgba(8, 8, 8, 0.911);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 
 }

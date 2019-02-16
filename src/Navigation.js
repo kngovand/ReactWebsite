@@ -6,10 +6,9 @@ import './Navigation.css';
 
 class Navigation extends Component {
     render() {
-        const sections = ['Projects', 'Resume', 'About', 'Contact'];
+        const sections = ['About', 'Projects', 'Resume', 'Contact'];
         const mapLinks = sections.map (section => {
             return(
-               
                 <li><a href = {"#" + section}>{section}</a></li>
             )
         });
@@ -18,10 +17,9 @@ class Navigation extends Component {
             <nav>
                 <h2 className = 'logo'>{this.props.logoTitle}</h2>
                 <ul>
-                <Scrollspy items = {['Projects', 'Resume', 'About', 'Contact']} currentClassName = "is-current">
-                    {mapLinks}
+                    <Scrollspy items = {['About', 'Projects', 'Resume', 'Contact']} currentClassName = "is-current">
+                        {mapLinks}
                     </Scrollspy>
-
                 </ul>
             </nav>
         )

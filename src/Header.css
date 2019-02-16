@@ -21,7 +21,7 @@ header p {
 
 header a {
     color: white;
-    background-color: #000000e0;
+    background-color: rgb(26, 26, 26);
     border-color: #000303;
     font-weight: 700;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);

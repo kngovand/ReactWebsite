@@ -6,14 +6,9 @@ class Project extends Component {
     render() {
         const values = [
             {icon: 'color-wand', name: 'Dynamic', description: 'Using components, props, and states'},
-
             {icon: 'contacts', name: 'Fluid', description: 'Focused on user design'},
-
-                          {icon: 'albums', name: 'Responsive', description: 'Works on most resolutions and devices'}
-
+            {icon: 'albums', name: 'Responsive', description: 'Works on most resolutions and devices'}
                         ];
-
-     
 
         const mapValues = values.map (value => {
             return(
@@ -24,8 +19,6 @@ class Project extends Component {
                 </div>
             )
         });
-
-
 
         return(
             <div className="project">

@@ -1,6 +1,6 @@
 .contact {
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgb(7, 106, 163);
     text-align: center;
     margin: 0 auto;
@@ -11,14 +11,13 @@
     font-style: bold;
     text-transform: uppercase;
     color: gold;
-    margin: 0;
-    padding: 0;
+    margin-bottom: -10px;
 }
 
 .contact h2 {
     color: white;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
 
@@ -30,20 +29,20 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    color: white;
+    color: rgb(7, 106, 163);
     padding-left: 1px;
 }
 
 .contact span {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(254, 255, 255);
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     align-content: center;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 2px;
-    line-height: 7rem;
+    line-height: 6.2rem;
 }
 
 .contact p {
@@ -53,4 +52,9 @@
 
 .contact .space {
     padding: 25px;
+}
+
+.contact .space span a {
+    color: rgb(7, 106, 163);
+    font-weight: 500;
 }
