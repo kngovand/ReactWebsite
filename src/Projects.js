@@ -20,7 +20,6 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0) {
             return(
- 
                 <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.idevie.com%2Fwp-content%2Fuploads%2F2015%2F12%2FReact.js_logo.svg_.png&f=1) center/ cover'}}></CardTitle>
                     <CardText>
@@ -29,24 +28,28 @@ class Projects extends Component {
                         React MDL was one of the libraries I used in order to help me implement the user interface.  
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
+                    <Button colored><a href="https://github.com/kngovand/ReactWebsite" target="_blank">Github</a></Button>
                     </CardActions>
                 </Card>
             )
         }
+
         else if(this.state.activeTab === 1) {
             return(
                 <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '200px', background: 'url(http://yagudaev.com/wp-content/uploads/2010/03/php-cover.jpg) center/ cover no-repeat #46B6AC', backgroundColor: 'black'}}></CardTitle>
                     <CardText>
-
+                        This web application was written in Ruby on Rails from Dr. Beaty's Web Architecture class. The project involved utilizing relationships
+                        between entities in order to implement a fully functional academic banner system. Some features involve using Bootstrap, user authentication,
+                        transforming the existing app into a single-page application, and much more.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
+                        <Button colored><a href="https://github.com/kngovand/webApp" target="_blank">Github</a></Button>
                     </CardActions>
                 </Card>
             )
         }
+
         else if(this.state.activeTab === 2) {
             return(
                 <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
@@ -56,11 +59,12 @@ class Projects extends Component {
                         many features such as inserting data, functioned on triggers and procedures, and worked with foreign keys so all of the tables were updated accordingly.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
+                        <Button colored><a href="https://github.com/kngovand/SQL" target="_blank">Github</a></Button>
                     </CardActions>
                 </Card>
             )
         }
+
         else if(this.state.activeTab === 3) {
             return(
                 <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
@@ -71,7 +75,7 @@ class Projects extends Component {
                         that display the current events taking place.  
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
+                        <Button colored><a href="https://github.com/kngovand/androidMaps" target="_blank">Github</a></Button>
                     </CardActions>
                 </Card>
             )
@@ -87,7 +91,7 @@ class Projects extends Component {
                         tools such as Selenium WebKit to test the javascript on the website.
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
+                    <Button colored><a href="https://github.com/kngovand/softwareDev" target="_blank">Github</a></Button>
                     </CardActions>
                 </Card>
             )
@@ -107,7 +111,6 @@ class Projects extends Component {
                         <Tab>Android Maps</Tab>
                         <Tab>Banner System</Tab>
                     </Tabs>
-
                     <section className ="projects-grid">
                         <Grid className = "projects-grid">
                             <Cell col = {12}>

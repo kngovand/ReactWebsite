@@ -4,7 +4,7 @@ import './Resume.css';
 
 const myStyles = {
     backgroundImage: `url( ${Background} )`,
-    height: '160vh',
+    height: '175vh',
     backgroundSize: 'cover'
 }
 

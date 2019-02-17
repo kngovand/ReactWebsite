@@ -5,7 +5,7 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         const values = [
-                            {icon: 'send', name: 'Email', href: "kevinvanduc@gmail.com"},
+                            {icon: 'send', name: 'Email', href: "mailto:kevinvanduc@gmail.com"},
                             {icon: 'logo-linkedin', name: 'LinkedIn', href: "https://www.linkedin.com/in/kngovand/"},
                             {icon: 'logo-github', name: 'GitHub', href: "https://github.com/kngovand"}
                         ];

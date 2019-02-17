@@ -26,3 +26,7 @@
 .projects .content {
     padding-top: 20px;
 }
+
+.projects a {
+    color: rgb(0, 0, 0);
+}
