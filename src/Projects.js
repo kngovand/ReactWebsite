@@ -20,7 +20,7 @@ class Projects extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0) {
             return(
-                <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
+                <Card shadow={0} style={{width: '80%', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.idevie.com%2Fwp-content%2Fuploads%2F2015%2F12%2FReact.js_logo.svg_.png&f=1) center/ cover'}}></CardTitle>
                     <CardText>
                         I rewrote my portfolio website in React JS as a learning experience. I wanted to see how props, states, and components worked together
@@ -36,7 +36,7 @@ class Projects extends Component {
 
         else if(this.state.activeTab === 1) {
             return(
-                <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
+                <Card shadow={0} style={{width: '80%', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '200px', background: 'url(http://yagudaev.com/wp-content/uploads/2010/03/php-cover.jpg) center/ cover no-repeat #46B6AC', backgroundColor: 'black'}}></CardTitle>
                     <CardText>
                         This web application was written in Ruby on Rails from Dr. Beaty's Web Architecture class. The project involved utilizing relationships
@@ -52,7 +52,7 @@ class Projects extends Component {
 
         else if(this.state.activeTab === 2) {
             return(
-                <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
+                <Card shadow={0} style={{width: '80%', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://reliablesite.net/hosting-news/wp-content/uploads/increasewebsitespeed.png) center / cover'}}></CardTitle>
                     <CardText>
                         This project was intended to provide a Business Finance Database using MySQL and MySQL Workbench. This database is fully funcional, with 
@@ -67,7 +67,7 @@ class Projects extends Component {
 
         else if(this.state.activeTab === 3) {
             return(
-                <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
+                <Card shadow={0} style={{width: '80%', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*qpJr-2XB1jf21_MxmHwg-g.png) center / cover'}}></CardTitle>
                     <CardText>
                         The objective of this application was to inform MSU-Denver students about activities and events throughout Auraria Campus. As an authentication feature, we utilized
@@ -83,7 +83,7 @@ class Projects extends Component {
 
         else if(this.state.activeTab === 4) {
             return(
-                <Card shadow={0} style={{width: '900px', margin: 'auto'}}>
+                <Card shadow={0} style={{width: '80%', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://www.webfx.com/blog/wp-content/uploads/2016/07/coding-ftp.png) center / cover'}}></CardTitle>
                     <CardText>
                         In Dr. Beaty's Software Development class, our group was responsible for unit testing and creating automated browser tests that ran on Dr. Dollard's
@@ -105,11 +105,11 @@ class Projects extends Component {
                 <h2>A strong focus on web applications</h2>
                 <div className = "category-tabs">
                     <Tabs backgroundColor="white" styleactiveTab= {this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
-                        <Tab>React Website</Tab>
-                        <Tab>Ruby App</Tab>
-                        <Tab>Finance DB</Tab>
-                        <Tab>Android Maps</Tab>
-                        <Tab>Banner System</Tab>
+                        <Tab>React</Tab>
+                        <Tab>Ruby</Tab>
+                        <Tab>SQL</Tab>
+                        <Tab>Android</Tab>
+                        <Tab>Banner</Tab>
                     </Tabs>
                     <section className ="projects-grid">
                         <Grid className = "projects-grid">
